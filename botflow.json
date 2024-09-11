@@ -2,7 +2,7 @@
     "initial_state": "S_HELLO",
     "S_HELLO": {
         "sec": "6.0",
-        "fileName": "hello",
+        "fileName": "Hello.wav",
         "reb_state": false,
         "qq_state": false,
         "answering_machine ": {
@@ -19,11 +19,11 @@
         },
         "NotSpoke ": {
             "fileName": "are_you_there.wav",
-            "next_state": "S_HELLO "
+            "next_state": "S_PITCH "
         },
         "None ": {
             "fileName": "",
-            "next_state": "S_INTRO "
+            "next_state": "S_PITCH "
         },
         "language_barrier": {
             "fileName": "",
@@ -103,7 +103,7 @@
         },
         "already":{
             "fileName": "",
-            "next_state": "S_Already"
+            "next_state": "S_NI"
         },
         "interested ": {
             "fileName": "",
@@ -112,18 +112,10 @@
         "idk_decline":{
             "fileName":"",
             "next_state" : "S_TRANSFER " 
-        },
-        "who_are_you":{
-            "fileName":"",
-            "next_state" : "S_WHO " 
-        },
-        "where_are_you_calling_from":{
-            "fileName":"",
-            "next_state" : "S_WHO " 
         }
     },
     "S_TRANSFER": {
-        "sec": "4",
+        "sec": "0",
         "fileName": "ok_great.wav",
         "reb_state": false,
         "qq_state": false,
@@ -165,7 +157,7 @@
         },
         "BUSY":{
             "fileName" :"",
-            "next_state":"disp_CALLBK "
+            "next_state":"S_BUSY "
         },
         "decline":{
             "fileName" :"",
@@ -202,79 +194,18 @@
         }
     },
     "S_BUSY": {
-        "sec": "5",
+        "sec": "0",
         "fileName": "busy_reb.wav",
         "reb_state": false,
         "qq_state": false,
-        "Not_Interested ": {
-            "fileName": "",
-            "next_state": "disp_NI "
-        },
-        "DNC ": {
-            "fileName": "",
-            "next_state": "disp_DNC "
-        },
-        "scam ": {
-            "fileName": "",
-            "next_state": "disp_DNC "
-        },
-        "abusive ": {
-            "fileName": "",
-            "next_state": "disp_DNC "
-        },
-        "BUSY ": {
-            "fileName": "",
-            "next_state": "disp_CALLBK "
-        },
-        "decline ": {
-            "fileName": "",
-            "next_state": "disp_DNQ "
-        },
-        "answering_machine ": {
-            "fileName": "",
-            "next_state": "disp_A "
-        },
         "NotSpoke ": {
             "fileName": "",
-            "next_state": "disp_NI "
-        },
-        "affirmation ": {
-            "fileName": "",
-            "next_state": "S_TRANSFER "
-        },
-        "already":{
-            "fileName": "",
-            "next_state": "S_Already"
-        },
-        "language_barrier": {
-            "fileName": "",
-            "next_state": "disp_LBR "
-        },
-        "idk_decline":{
-            "fileName":"",
-            "next_state" : "S_TRANSFER " 
+            "next_state": "disp_B "
         },
         "None":{
             "fileName":"",
-            "next_state" : "S_TRANSFER "  
-        },
-        "interested ": {
-            "fileName": "",
-            "next_state": "S_TRANSFER "
-        },
-        "not_decision_maker":{
-            "fileName":"",
-            "next_state" : "disp_DNQ " 
-        },
-        "who_are_you":{
-            "fileName":"",
-            "next_state" : "S_WHO " 
-        },
-        "where_are_you_calling_from":{
-            "fileName":"",
-            "next_state" : "S_WHO " 
+            "next_state" : "disp_B "  
         }
-        
     },
     "S_PREV_STATE": {
         "sec": "1",
@@ -284,7 +215,7 @@
     },
     "S_NI": {
         "sec": "5",
-        "fileName": "not_interested",
+        "fileName": "not_interested.wav",
         "reb_state": false,
         "qq_state": false,
         "Not_Interested ": {
@@ -325,7 +256,7 @@
         },
         "already":{
             "fileName": "",
-            "next_state": "S_Already"
+            "next_state": "disp_NI "
         },
         "language_barrier": {
             "fileName": "",
@@ -346,14 +277,6 @@
         "not_decision_maker":{
             "fileName":"",
             "next_state" : "disp_DNQ " 
-        },
-        "who_are_you":{
-            "fileName":"",
-            "next_state" : "S_WHO " 
-        },
-        "where_are_you_calling_from":{
-            "fileName":"",
-            "next_state" : "S_WHO " 
         }
     },
     "S_Already": {
