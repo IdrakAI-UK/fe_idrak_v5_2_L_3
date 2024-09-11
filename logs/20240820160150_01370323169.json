@@ -1,0 +1,1 @@
+{"call_started": "16:01:44.620609", "called_end": "16:01:50.479671", "phone_number": "01370323169", "disposition": "DNC", "states": [{"state_name": "S_AGE_QUESTION", "playing": ["Hello.wav"], "transcript": {"helping_trans": "fuck you i am not and roster", "transcript": " fuck you, i am not interested."}, "predicted_class": {"res": "DNC", "method": "fl"}}]}

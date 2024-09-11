@@ -1,0 +1,42 @@
+            ---- BOT JSON LOADED ----             
+==================================================
+    ____    __           __      ___    _    __    __      __      
+   /  _/___/ /________ _/ /__   /   |  (_)  / /   / /_____/ /      
+   / // __  / ___/ __ `/ //_/  / /| | / /  / /   / __/ __  /       
+ _/ // /_/ / /  / /_/ / ,<    / ___ |/ /  / /___/ /_/ /_/ /_       
+/___/\__,_/_/   \__,_/_/|_|  /_/  |_/_/  /_____/\__/\__,_/(_)      
+                                                                   
+
+Version 1.0.0.L_A
+Dated:  08/08/2024 @ 5:40 PM
+Company Name:  Ali Test
+==================================================
+==================================================
+Call # 0
+==================================================
+'audio_dict'
+--------------------------------------------------
+State: S_HELLO
+Playing : Hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 1
+listening 2
+User Spoke:  hello, hello.
+AI Detect : greetings
+--------------------------------------------------
+State: S_INTRO
+Playing : ./sounds/brin/intro/Intro.wav
+Time: 6
+listening 0
+listening 1
+listening 2
+listening 1
+listening 1
+listening 1
+User Spoke:  what you are talking about?
+AI Detect : calling_about
+--------------------------------------------------
+State: S_PITCH
+Playing : ./sounds/brin/pitch/pitch_1.wav

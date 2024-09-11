@@ -1,0 +1,925 @@
+            ---- BOT JSON LOADED ----             
+==================================================
+    ____    __           __      ___    _    __    __      __      
+   /  _/___/ /________ _/ /__   /   |  (_)  / /   / /_____/ /      
+   / // __  / ___/ __ `/ //_/  / /| | / /  / /   / __/ __  /       
+ _/ // /_/ / /  / /_/ / ,<    / ___ |/ /  / /___/ /_/ /_/ /_       
+/___/\__,_/_/   \__,_/_/|_|  /_/  |_/_/  /_____/\__/\__,_/(_)      
+                                                                   
+
+Version 1.0.0.L_A
+Dated:  08/08/2024 @ 5:40 PM
+Company Name:  Ali Test
+==================================================
+==================================================
+Call # 0
+==================================================
+'audio_dict'
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+User Spoke:  hello.
+AI Detect : greetings
+--------------------------------------------------
+State: S_INTRO
+Playing : ./sounds/humna_sound/intro/intro_pitch_q_1.wav
+Time: 6
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+Data successfully written to ./logs/20240827202925_02160718109.json
+##################################################
+Disposition =  N
+##################################################
+==================================================
+Call # 1
+==================================================
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+            ---- BOT JSON LOADED ----             
+==================================================
+    ____    __           __      ___    _    __    __      __      
+   /  _/___/ /________ _/ /__   /   |  (_)  / /   / /_____/ /      
+   / // __  / ___/ __ `/ //_/  / /| | / /  / /   / __/ __  /       
+ _/ // /_/ / /  / /_/ / ,<    / ___ |/ /  / /___/ /_/ /_/ /_       
+/___/\__,_/_/   \__,_/_/|_|  /_/  |_/_/  /_____/\__/\__,_/(_)      
+                                                                   
+
+Version 1.0.0.L_A
+Dated:  08/08/2024 @ 5:40 PM
+Company Name:  Ali Test
+==================================================
+==================================================
+Call # 0
+==================================================
+'audio_dict'
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+User Spoke:  hello.
+AI Detect : greetings
+--------------------------------------------------
+State: S_INTRO
+Playing : ./sounds/humna_sound/intro/intro_pitch_q_1.wav
+Time: 6
+listening 0
+listening 1
+listening 2
+listening 1
+User Spoke:  am i hearing what?
+AI Detect : say_again
+Playing : ./sounds/humna_sound/only_intro/Intro_3.wav
+--------------------------------------------------
+State: S_PITCH
+Playing : ./sounds/humna_sound/only_pitch_ab/pitch_ab_1.wav
+Time: 5
+listening 0
+listening 1
+listening 2
+listening 3
+listening 1
+listening 1
+listening 1
+User Spoke:  yes, i am having both.
+AI Detect : affirmation
+--------------------------------------------------
+State: S_TRANSFER
+Playing : transfer.wav
+Time: 5
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 1
+User Spoke:  i'm not
+AI Detect : decline
+--------------------------------------------------
+State: S_TRANSFER_REB
+Playing : transfer_reb.wav
+Time: 5
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+User Spoke:  no.
+AI Detect : decline
+Data successfully written to ./logs/20240827203215_01957336804.json
+##################################################
+Disposition =  NI
+##################################################
+==================================================
+Call # 1
+==================================================
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+User Spoke:  uh hi
+AI Detect : greetings
+--------------------------------------------------
+State: S_INTRO
+Playing : ./sounds/humna_sound/intro/intro_pitch_q_3.wav
+Time: 6
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 1
+listening 2
+User Spoke:  i don't know.
+AI Detect : other
+Data successfully written to ./logs/20240827203248_01374922552.json
+##################################################
+Disposition =  N
+##################################################
+            ---- BOT JSON LOADED ----             
+==================================================
+    ____    __           __      ___    _    __    __      __      
+   /  _/___/ /________ _/ /__   /   |  (_)  / /   / /_____/ /      
+   / // __  / ___/ __ `/ //_/  / /| | / /  / /   / __/ __  /       
+ _/ // /_/ / /  / /_/ / ,<    / ___ |/ /  / /___/ /_/ /_/ /_       
+/___/\__,_/_/   \__,_/_/|_|  /_/  |_/_/  /_____/\__/\__,_/(_)      
+                                                                   
+
+Version 1.0.0.L_A
+Dated:  08/08/2024 @ 5:40 PM
+Company Name:  Ali Test
+==================================================
+==================================================
+Call # 0
+==================================================
+'audio_dict'
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+User Spoke:  hello
+AI Detect : greetings
+--------------------------------------------------
+State: S_INTRO
+Playing : ./sounds/humna_sound/intro/intro_pitch_q.wav
+Time: 6
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 1
+listening 1
+User Spoke:  i don't know really.
+AI Detect : idk_decline
+--------------------------------------------------
+State: S_IDK
+Playing : ab_reb.wav
+Time: 5
+listening 0
+listening 1
+listening 2
+listening 3
+User Spoke: okay
+AI Detect : interested
+--------------------------------------------------
+State: S_TRANSFER
+Playing : transfer.wav
+Time: 5
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+listening 1
+listening 1
+User Spoke:  no, don't transfer.
+AI Detect : decline
+--------------------------------------------------
+State: S_TRANSFER_REB
+Playing : transfer_reb.wav
+Time: 5
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+Data successfully written to ./logs/20240827204217_02612693878.json
+##################################################
+Disposition =  XFER
+##################################################
+            ---- BOT JSON LOADED ----             
+==================================================
+    ____    __           __      ___    _    __    __      __      
+   /  _/___/ /________ _/ /__   /   |  (_)  / /   / /_____/ /      
+   / // __  / ___/ __ `/ //_/  / /| | / /  / /   / __/ __  /       
+ _/ // /_/ / /  / /_/ / ,<    / ___ |/ /  / /___/ /_/ /_/ /_       
+/___/\__,_/_/   \__,_/_/|_|  /_/  |_/_/  /_____/\__/\__,_/(_)      
+                                                                   
+
+Version 1.0.0.L_A
+Dated:  08/08/2024 @ 5:40 PM
+Company Name:  Ali Test
+==================================================
+==================================================
+Call # 0
+==================================================
+'audio_dict'
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+User Spoke:  hello.
+AI Detect : greetings
+--------------------------------------------------
+State: S_INTRO
+Playing : ./sounds/ff_new/intro/intro_pitch_q_1.wav
+Time: 6
+listening 0
+listening 1
+listening 2
+listening 3
+listening 1
+listening 1
+User Spoke:  i really don't know about it.
+AI Detect : idk_decline
+--------------------------------------------------
+State: S_IDK
+Playing : ab_reb.wav
+Time: 5
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 1
+User Spoke:  yes i do
+AI Detect : affirmation
+--------------------------------------------------
+State: S_TRANSFER
+Playing : transfer.wav
+Time: 5
+listening 0
+listening 1
+listening 2
+listening 3
+listening 1
+User Spoke:  i don't know what you're doing.
+AI Detect : idk_decline
+Data successfully written to ./logs/20240827213246_02979572955.json
+##################################################
+Disposition =  XFER
+##################################################
+==================================================
+Call # 1
+==================================================
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+            ---- BOT JSON LOADED ----             
+==================================================
+    ____    __           __      ___    _    __    __      __      
+   /  _/___/ /________ _/ /__   /   |  (_)  / /   / /_____/ /      
+   / // __  / ___/ __ `/ //_/  / /| | / /  / /   / __/ __  /       
+ _/ // /_/ / /  / /_/ / ,<    / ___ |/ /  / /___/ /_/ /_/ /_       
+/___/\__,_/_/   \__,_/_/|_|  /_/  |_/_/  /_____/\__/\__,_/(_)      
+                                                                   
+
+Version 1.0.0.L_A
+Dated:  08/08/2024 @ 5:40 PM
+Company Name:  Ali Test
+==================================================
+==================================================
+Call # 0
+==================================================
+'audio_dict'
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 1
+User Spoke:  hello
+AI Detect : greetings
+--------------------------------------------------
+State: S_INTRO
+Playing : ./sounds/ff_new/intro/intro_pitch_q_4.wav
+Time: 6
+listening 0
+listening 1
+listening 2
+listening 3
+listening 1
+listening 1
+User Spoke:  i have everything.
+AI Detect : already
+--------------------------------------------------
+State: S_Already
+Playing : Already_Rebuttal.wav
+Time: 5
+listening 0
+listening 1
+listening 2
+listening 1
+listening 1
+User Spoke:  i really don't know about it.
+AI Detect : idk_decline
+--------------------------------------------------
+State: S_IDK
+Playing : ab_reb.wav
+Time: 5
+listening 0
+listening 1
+listening 2
+listening 3
+listening 1
+listening 1
+User Spoke:  just idea
+AI Detect : interested
+--------------------------------------------------
+State: S_TRANSFER
+Playing : transfer.wav
+Time: 5
+listening 0
+listening 1
+listening 2
+listening 3
+listening 1
+listening 1
+listening 2
+User Spoke:  i am not interested.
+AI Detect : Not_Interested
+--------------------------------------------------
+State: S_TRANSFER_REB
+Playing : transfer_reb.wav
+Time: 5
+listening 0
+listening 1
+listening 1
+listening 1
+User Spoke:  okay, just do it.
+AI Detect : interested
+Data successfully written to ./logs/20240827213634_02928468840.json
+##################################################
+Disposition =  XFER
+##################################################
+            ---- BOT JSON LOADED ----             
+==================================================
+    ____    __           __      ___    _    __    __      __      
+   /  _/___/ /________ _/ /__   /   |  (_)  / /   / /_____/ /      
+   / // __  / ___/ __ `/ //_/  / /| | / /  / /   / __/ __  /       
+ _/ // /_/ / /  / /_/ / ,<    / ___ |/ /  / /___/ /_/ /_/ /_       
+/___/\__,_/_/   \__,_/_/|_|  /_/  |_/_/  /_____/\__/\__,_/(_)      
+                                                                   
+
+Version 1.0.0.L_A
+Dated:  08/08/2024 @ 5:40 PM
+Company Name:  Ali Test
+==================================================
+==================================================
+Call # 0
+==================================================
+'audio_dict'
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+Playing : are_you_there.wav
+--------------------------------------------------
+State: S_HELLO
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+           ---- User Did Not Speak ----           
+==================================================
+USER DIDNOT RESPONED at S_HELLO
+==================================================
+Data successfully written to ./logs/20240827214412_01570473843.json
+##################################################
+Disposition =  N
+##################################################
+==================================================
+Call # 1
+==================================================
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+Playing : are_you_there.wav
+--------------------------------------------------
+State: S_HELLO
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+           ---- User Did Not Speak ----           
+==================================================
+USER DIDNOT RESPONED at S_HELLO
+==================================================
+Data successfully written to ./logs/20240827214427_01996497250.json
+##################################################
+Disposition =  N
+##################################################
+==================================================
+Call # 2
+==================================================
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+Playing : are_you_there.wav
+--------------------------------------------------
+State: S_HELLO
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+           ---- User Did Not Speak ----           
+==================================================
+USER DIDNOT RESPONED at S_HELLO
+==================================================
+Data successfully written to ./logs/20240827214443_01214991317.json
+##################################################
+Disposition =  N
+##################################################
+==================================================
+Call # 3
+==================================================
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+Playing : are_you_there.wav
+--------------------------------------------------
+State: S_HELLO
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+           ---- User Did Not Speak ----           
+==================================================
+USER DIDNOT RESPONED at S_HELLO
+==================================================
+Data successfully written to ./logs/20240827214459_02573930745.json
+##################################################
+Disposition =  N
+##################################################
+==================================================            ---- BOT JSON LOADED ----             
+==================================================
+    ____    __           __      ___    _    __    __      __      
+   /  _/___/ /________ _/ /__   /   |  (_)  / /   / /_____/ /      
+   / // __  / ___/ __ `/ //_/  / /| | / /  / /   / __/ __  /       
+ _/ // /_/ / /  / /_/ / ,<    / ___ |/ /  / /___/ /_/ /_/ /_       
+/___/\__,_/_/   \__,_/_/|_|  /_/  |_/_/  /_____/\__/\__,_/(_)      
+                                                                   
+
+Version 1.0.0.L_A
+Dated:  08/08/2024 @ 5:40 PM
+Company Name:  Ali Test
+==================================================
+==================================================
+Call # 0
+==================================================
+'audio_dict'
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+Playing : are_you_there.wav
+--------------------------------------------------
+State: S_HELLO
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+           ---- User Did Not Speak ----           
+==================================================
+USER DIDNOT RESPONED at S_HELLO
+==================================================
+Data successfully written to ./logs/20240827214412_01570473843.json
+##################################################
+Disposition =  N
+##################################################
+==================================================
+Call # 1
+==================================================
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+Playing : are_you_there.wav
+--------------------------------------------------
+State: S_HELLO
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+           ---- User Did Not Speak ----           
+==================================================
+USER DIDNOT RESPONED at S_HELLO
+==================================================
+Data successfully written to ./logs/20240827214427_01996497250.json
+##################################################
+Disposition =  N
+##################################################
+==================================================
+Call # 2
+==================================================
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+Playing : are_you_there.wav
+--------------------------------------------------
+State: S_HELLO
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+           ---- User Did Not Speak ----           
+==================================================
+USER DIDNOT RESPONED at S_HELLO
+==================================================
+Data successfully written to ./logs/20240827214443_01214991317.json
+##################################################
+Disposition =  N
+##################################################
+==================================================
+Call # 3
+==================================================
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+Playing : are_you_there.wav
+--------------------------------------------------
+State: S_HELLO
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+           ---- User Did Not Speak ----           
+==================================================
+USER DIDNOT RESPONED at S_HELLO
+==================================================
+Data successfully written to ./logs/20240827214459_02573930745.json
+##################################################
+Disposition =  N
+##################################################
+==================================================
+Call # 4
+==================================================
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+Playing : are_you_there.wav
+--------------------------------------------------
+State: S_HELLO
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+           ---- User Did Not Speak ----           
+==================================================
+USER DIDNOT RESPONED at S_HELLO
+==================================================
+Data successfully written to ./logs/20240827214514_02761715510.json
+##################################################
+Disposition =  N
+##################################################
+==================================================
+Call # 5
+==================================================
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+Playing : are_you_there.wav
+--------------------------------------------------
+State: S_HELLO
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+User Spoke:  you've got it.
+AI Detect : affirmation
+--------------------------------------------------
+State: S_INTRO
+Playing : ./sounds/ff_new/intro/intro_pitch_q_4.wav
+Time: 6
+listening 0
+listening 1
+listening 2
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+Data successfully written to ./logs/20240827214551_02665507560.json
+##################################################
+Disposition =  N
+##################################################
+==================================================
+Call # 6
+==================================================
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+Playing : are_you_there.wav
+--------------------------------------------------
+State: S_HELLO
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 6
+           ---- User Did Not Speak ----           
+==================================================
+USER DIDNOT RESPONED at S_HELLO
+==================================================
+Data successfully written to ./logs/20240827214607_01106484020.json
+##################################################
+Disposition =  N
+##################################################
+            ---- BOT JSON LOADED ----             
+==================================================
+    ____    __           __      ___    _    __    __      __      
+   /  _/___/ /________ _/ /__   /   |  (_)  / /   / /_____/ /      
+   / // __  / ___/ __ `/ //_/  / /| | / /  / /   / __/ __  /       
+ _/ // /_/ / /  / /_/ / ,<    / ___ |/ /  / /___/ /_/ /_/ /_       
+/___/\__,_/_/   \__,_/_/|_|  /_/  |_/_/  /_____/\__/\__,_/(_)      
+                                                                   
+
+Version 1.0.0.L_A
+Dated:  08/08/2024 @ 5:40 PM
+Company Name:  Ali Test
+==================================================
+==================================================
+Call # 0
+==================================================
+'audio_dict'
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 1
+User Spoke:  camera
+AI Detect : other
+--------------------------------------------------
+State: S_INTRO
+Playing : ./sounds/ff_new/intro/intro_pitch_q_1.wav
+Time: 6
+listening 0
+listening 1
+listening 1
+listening 1
+listening 1
+listening 1
+listening 1
+listening 1
+User Spoke:  i have part a, b, c, d, e, everything.
+AI Detect : already
+--------------------------------------------------
+State: S_Already
+Playing : Already_Rebuttal.wav
+Matched keyword: fuck
+User Spoke:  fuck you
+==================================================
+DNC Detected at S_Already
+==================================================
+Data successfully written to ./logs/20240827214656_02288744125.json
+##################################################
+Disposition =  DNC
+##################################################
+==================================================
+Call # 1
+==================================================
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 5
+listening 1
+User Spoke:  fuck you.
+AI Detect : DNC
+Data successfully written to ./logs/20240827214705_02696515170.json
+##################################################
+Disposition =  DNC
+##################################################
+==================================================
+Call # 2
+==================================================
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 1
+Playing : are_you_there.wav
+--------------------------------------------------
+State: S_HELLO
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+User Spoke:  hello.
+AI Detect : greetings
+--------------------------------------------------
+State: S_INTRO
+Playing : ./sounds/ff_new/intro/intro_pitch_q_1.wav
+            ---- BOT JSON LOADED ----             
+==================================================
+    ____    __           __      ___    _    __    __      __      
+   /  _/___/ /________ _/ /__   /   |  (_)  / /   / /_____/ /      
+   / // __  / ___/ __ `/ //_/  / /| | / /  / /   / __/ __  /       
+ _/ // /_/ / /  / /_/ / ,<    / ___ |/ /  / /___/ /_/ /_/ /_       
+/___/\__,_/_/   \__,_/_/|_|  /_/  |_/_/  /_____/\__/\__,_/(_)      
+                                                                   
+
+Version 1.0.0.L_A
+Dated:  08/08/2024 @ 5:40 PM
+Company Name:  Ali Test
+==================================================
+==================================================
+Call # 0
+==================================================
+'audio_dict'
+--------------------------------------------------
+State: S_HELLO
+Playing : hello.wav
+Time: 6.0
+listening 0
+listening 1
+listening 2
+listening 3
+listening 4
+listening 1
+listening 1
+User Spoke:  i am not interested.
+AI Detect : Not_Interested
+--------------------------------------------------
+State: S_INTRO
+Playing : ./sounds/ff_new/intro/intro_pitch_q_3.wav

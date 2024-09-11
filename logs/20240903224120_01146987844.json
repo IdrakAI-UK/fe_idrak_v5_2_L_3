@@ -1,0 +1,1 @@
+{"call_started": "22:41:12.464169", "called_end": "22:41:20.035753", "phone_number": "01146987844", "disposition": "A", "states": [{"state_name": "S_HELLO", "playing": ["hello.wav"], "transcript": {"helping_trans": "mailboxes full please try again", "transcript": " mailbox is full. please try again."}, "predicted_class": {"res": "answering_machine", "method": "fl"}}]}

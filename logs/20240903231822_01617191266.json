@@ -1,0 +1,1 @@
+{"call_started": "23:18:12.030047", "called_end": "23:18:22.910114", "phone_number": "01617191266", "disposition": "DNC", "states": [{"state_name": "S_TRANSFER", "playing": ["transfer.wav"], "transcript": {"helping_trans": "the computer i robot", "transcript": " computer or robot"}, "predicted_class": {"res": "are_you_bot", "method": "b"}}]}

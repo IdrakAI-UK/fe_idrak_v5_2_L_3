@@ -1,0 +1,1 @@
+{"call_started": "23:23:04.320421", "called_end": "23:23:37.548231", "phone_number": "01430900431", "disposition": "LBR", "states": [{"state_name": "S_NI", "playing": ["ni_rebuttal.wav"], "transcript": {"helping_trans": "spaniard speak spanish", "transcript": " spanish"}, "predicted_class": {"res": "language_barrier", "method": "fl"}}]}

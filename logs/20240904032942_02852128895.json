@@ -1,0 +1,1 @@
+{"call_started": "03:29:36.033069", "called_end": "03:29:42.583368", "phone_number": "02852128895", "disposition": "A", "states": [{"state_name": "S_HELLO", "playing": ["hello.wav"], "transcript": {"helping_trans": "the you are company legal name", "transcript": " say your company legal name."}, "predicted_class": {"res": "answering_machine", "method": "a_check"}}]}

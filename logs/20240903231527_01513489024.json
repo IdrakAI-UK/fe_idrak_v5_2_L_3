@@ -1,0 +1,1 @@
+{"call_started": "23:15:14.688644", "called_end": "23:15:27.004293", "phone_number": "01513489024", "disposition": "DNQ", "states": [{"state_name": "S_TRANSFER", "playing": ["transfer.wav"], "transcript": {"helping_trans": "i have to ask me wonder about this", "transcript": " i have to ask my mother about this."}, "predicted_class": {"res": "not_decision_maker", "method": "b"}}]}

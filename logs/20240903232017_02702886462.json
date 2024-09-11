@@ -1,0 +1,1 @@
+{"call_started": "23:19:46.371226", "called_end": "23:20:17.811996", "phone_number": "02702886462", "disposition": "A", "states": [{"state_name": "S_NI", "playing": ["ni_rebuttal.wav"], "transcript": {"helping_trans": "i'm not available right now", "transcript": " i am not available right now."}, "predicted_class": {"res": "answering_machine", "method": "fl"}}]}

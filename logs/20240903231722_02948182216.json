@@ -1,0 +1,1 @@
+{"call_started": "23:17:12.671784", "called_end": "23:17:22.926448", "phone_number": "02948182216", "disposition": "LBR", "states": [{"state_name": "S_TRANSFER", "playing": ["transfer.wav"], "transcript": {"helping_trans": "speak spanish", "transcript": " speaks spanish."}, "predicted_class": {"res": "language_barrier", "method": "fl"}}]}
