@@ -112,6 +112,10 @@
         "idk_decline":{
             "fileName":"",
             "next_state" : "S_TRANSFER " 
+        },
+        "language_barrier": {
+            "fileName": "",
+            "next_state": "disp_LBR "
         }
     },
     "S_TRANSFER": {
