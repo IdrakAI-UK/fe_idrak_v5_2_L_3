@@ -1,1 +1,0 @@
-{"call_started": "23:13:57.277931", "called_end": "23:14:07.543271", "phone_number": "02932963656", "disposition": "XFER", "states": [{"state_name": "S_TRANSFER", "playing": ["transfer.wav"], "transcript": {"helping_trans": "and busy right now", "transcript": " m.b.z. right now."}, "predicted_class": {"res": "affirmation", "method": "b"}}]}

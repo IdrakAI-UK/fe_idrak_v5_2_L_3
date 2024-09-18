@@ -1,1 +1,0 @@
-{"call_started": "22:16:24.720658", "called_end": "22:16:31.097340", "phone_number": "01833516288", "disposition": "A", "states": [{"state_name": "S_HELLO", "playing": ["hello.wav"], "transcript": {"helping_trans": "i hope this is telemarketing good", "transcript": " i hope this is telemarketing gone."}, "predicted_class": {"res": "answering_machine", "method": "fl"}}]}

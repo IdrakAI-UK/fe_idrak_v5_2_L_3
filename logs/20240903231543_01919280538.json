@@ -1,1 +1,0 @@
-{"call_started": "23:15:30.012416", "called_end": "23:15:43.662350", "phone_number": "01919280538", "disposition": "DNC", "states": [{"state_name": "S_TRANSFER", "playing": ["transfer.wav"], "transcript": {"helping_trans": "no dc the fifteen gotta of the day", "transcript": " no, this is the 15 call of the day."}, "predicted_class": {"res": "complain_calls", "method": "b"}}]}

@@ -1,1 +1,0 @@
-{"call_started": "00:55:35.303274", "called_end": "00:55:41.643938", "phone_number": "02534917500", "disposition": "A", "states": [{"state_name": "S_HELLO", "playing": ["hello.wav"], "transcript": {"helping_trans": "", "transcript": " to keep you."}, "predicted_class": {"res": "answering_machine", "method": "b"}}]}

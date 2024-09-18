@@ -1,1 +1,0 @@
-{"call_started": "02:06:16.173342", "called_end": "02:06:22.396963", "phone_number": "02970462821", "disposition": "A", "states": [{"state_name": "S_HELLO", "playing": ["hello.wav"], "transcript": {"helping_trans": "below sixty here", "transcript": " below 6th street here"}, "predicted_class": {"res": "answering_machine", "method": "b"}}]}

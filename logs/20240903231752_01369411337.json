@@ -1,1 +1,0 @@
-{"call_started": "23:17:40.529023", "called_end": "23:17:52.974212", "phone_number": "01369411337", "disposition": "NI", "states": [{"state_name": "S_TRANSFER", "playing": ["transfer.wav"], "transcript": {"helping_trans": "i am hundred plus", "transcript": " i am 100 plus."}, "predicted_class": {"res": "decline", "method": "r"}}]}

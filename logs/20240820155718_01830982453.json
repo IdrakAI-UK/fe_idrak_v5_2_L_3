@@ -1,1 +1,0 @@
-{"call_started": "15:57:05.664274", "called_end": "15:57:18.094109", "phone_number": "01830982453", "disposition": "DNQ", "states": [{"state_name": "S_AGE_QUESTION", "playing": ["Hello.wav", "DNQ_cux_rebuttal.wav"], "transcript": {"helping_trans": "i'm sixty three yards on", "transcript": " i am 63 years old."}, "predicted_class": {"res": "decline", "method": "r"}}]}

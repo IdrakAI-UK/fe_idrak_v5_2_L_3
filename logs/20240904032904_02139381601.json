@@ -1,1 +1,0 @@
-{"call_started": "03:28:59.014444", "called_end": "03:29:04.346905", "phone_number": "02139381601", "disposition": "A", "states": [{"state_name": "S_HELLO", "playing": ["hello.wav"], "transcript": {"helping_trans": "go ahead and doing", "transcript": " go ahead and do it."}, "predicted_class": {"res": "answering_machine", "method": "a_check"}}]}

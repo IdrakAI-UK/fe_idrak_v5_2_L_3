@@ -1,1 +1,0 @@
-{"call_started": "23:16:31.948575", "called_end": "23:16:41.176788", "phone_number": "02748844501", "disposition": "XFER", "states": [{"state_name": "S_TRANSFER", "playing": ["transfer.wav"], "transcript": {"helping_trans": "oh man", "transcript": " oh man."}, "predicted_class": {"res": "interested", "method": "b"}}]}

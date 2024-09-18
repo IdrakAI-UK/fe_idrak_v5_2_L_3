@@ -1,1 +1,0 @@
-{"call_started": "22:41:23.044075", "called_end": "22:41:29.403820", "phone_number": "01832761569", "disposition": "DNC", "states": [{"state_name": "S_HELLO", "playing": ["hello.wav"], "transcript": {"helping_trans": "you binge", "transcript": " you bitch"}, "predicted_class": {"res": "DNC", "method": "fl"}}]}

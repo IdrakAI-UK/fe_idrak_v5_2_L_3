@@ -1,1 +1,0 @@
-{"call_started": "23:23:40.554669", "called_end": "23:24:10.891148", "phone_number": "01699649999", "disposition": "DNC", "states": [{"state_name": "S_NI", "playing": ["ni_rebuttal.wav"], "transcript": {"helping_trans": "fuck you", "transcript": " fuck you."}, "predicted_class": {"res": "DNC", "method": "fl"}}]}

@@ -19,7 +19,7 @@
         },
         "NotSpoke ": {
             "fileName": "are_you_there.wav",
-            "next_state": "S_PITCH "
+            "next_state": "S_HELLO"
         },
         "None ": {
             "fileName": "",
@@ -61,6 +61,7 @@
             "fileName": "",
             "next_state": "disp_DNQ "
         },
+
         "DNC ": {
             "fileName": "",
             "next_state": "disp_DNC "
@@ -112,6 +113,10 @@
         "idk_decline":{
             "fileName":"",
             "next_state" : "S_TRANSFER " 
+        },
+        "DNQ ": {
+            "fileName": "",
+            "next_state": "disp_DNQ "
         }
     },
     "S_TRANSFER": {
@@ -200,11 +205,11 @@
         "qq_state": false,
         "NotSpoke ": {
             "fileName": "",
-            "next_state": "disp_B "
+            "next_state": "disp_CALLBK "
         },
         "None":{
             "fileName":"",
-            "next_state" : "disp_B "  
+            "next_state" : "disp_CALLBK "  
         }
     },
     "S_PREV_STATE": {
@@ -277,6 +282,10 @@
         "not_decision_maker":{
             "fileName":"",
             "next_state" : "disp_DNQ " 
+        },
+        "DNQ ": {
+            "fileName": "",
+            "next_state": "disp_DNQ "
         }
     },
     "S_Already": {
