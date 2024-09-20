@@ -34,25 +34,92 @@
             "next_state": "disp_DNC "
         }
     },
-    "S_INTRO": {
-        "sec": "0",
-        "fileName": "intro",
-        "reb_state": false,
-        "qq_state": false,
-        "NotSpoke ": {
-            "fileName": "",
-            "next_state": "S_PITCH"
-        },
-        "None ": {
-            "fileName": "",
-            "next_state": "S_PITCH "
-        }
-    },
     "S_PITCH": {
         "sec": "5",
         "fileName": "pitch",
         "reb_state": false,
         "qq_state": false,
+
+        "answering_machine ": {
+            "fileName": "",
+            "next_state": "disp_A "
+        },
+        "not_decision_maker ": {
+            "fileName": "",
+            "next_state": "disp_DNQ "
+        },
+
+        "DNC ": {
+            "fileName": "",
+            "next_state": "disp_DNC "
+        },
+        "scam ": {
+            "fileName": "",
+            "next_state": "disp_DNC "
+        },
+        "abusive ": {
+            "fileName": "",
+            "next_state": "disp_DNC "
+        },
+        "BUSY ": {
+            "fileName": "",
+            "next_state": "S_BUSY "
+        },
+        "NotSpoke ": {
+            "fileName": "",
+            "next_state": "disp_NI "
+        },
+        "decline ": {
+            "fileName": "",
+            "next_state": "disp_DNQ "
+        },
+        "affirmation ": {
+            "fileName": "",
+            "next_state": "S_TRANSFER "
+        },
+        "greetings ": {
+            "fileName": "",
+            "next_state": "S_PITCH2 "
+        }, 
+        "Not_Interested ": {
+            "fileName": "",
+            "next_state": "S_NI "
+        },
+        "None ": {
+            "fileName": "",
+            "next_state": "S_PITCH2 "
+        },
+        "already":{
+            "fileName": "",
+            "next_state": "S_Already"
+        },
+        "interested ": {
+            "fileName": "",
+            "next_state": "S_TRANSFER "
+        },
+        "idk_decline":{
+            "fileName":"",
+            "next_state" : "S_TRANSFER " 
+        },
+        "DNQ ": {
+            "fileName": "",
+            "next_state": "disp_DNQ "
+        },
+        "other":{
+            "fileName":"",
+            "next_state" : "S_PITCH2 " 
+        },
+        "DNQ": {
+            "fileName": "",
+            "next_state": "disp_DNQ "
+        }
+    },
+    "S_PITCH2": {
+        "sec": "5",
+        "fileName": "age_question.wav",
+        "reb_state": false,
+        "qq_state": false,
+
         "answering_machine ": {
             "fileName": "",
             "next_state": "disp_A "
@@ -104,7 +171,7 @@
         },
         "already":{
             "fileName": "",
-            "next_state": "S_NI"
+            "next_state": "S_Already"
         },
         "interested ": {
             "fileName": "",
@@ -117,8 +184,13 @@
         "DNQ ": {
             "fileName": "",
             "next_state": "disp_DNQ "
+        },
+        "other":{
+            "fileName":"",
+            "next_state" : "disp_NI " 
         }
     },
+
     "S_TRANSFER": {
         "sec": "0",
         "fileName": "ok_great.wav",
@@ -290,7 +362,7 @@
     },
     "S_Already": {
         "sec": "5",
-        "fileName": "already_reb.wav",
+        "fileName": "already_rebuttal.wav",
         "reb_state": false,
         "qq_state": false,
         "Not_Interested ": {
@@ -353,13 +425,9 @@
             "fileName":"",
             "next_state" : "disp_DNQ " 
         },
-        "who_are_you":{
-            "fileName":"",
-            "next_state" : "S_WHO " 
-        },
-        "where_are_you_calling_from":{
-            "fileName":"",
-            "next_state" : "S_WHO " 
+        "DNQ": {
+            "fileName": "",
+            "next_state": "disp_DNQ "
         }
     },
     "S_Where": {
