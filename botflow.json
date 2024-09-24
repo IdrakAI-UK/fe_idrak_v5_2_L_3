@@ -192,8 +192,8 @@
     },
 
     "S_TRANSFER": {
-        "sec": "0",
-        "fileName": "ok_great.wav",
+        "sec": "10",
+        "fileName": "transfer_consent1.wav",
         "reb_state": false,
         "qq_state": false,
         "answering_machine ": {
@@ -246,7 +246,7 @@
         },
         "None":{
             "fileName":"",
-            "next_state" : "disp_XFER "  
+            "next_state" : "disp_NI "  
         },
         "language_barrier": {
             "fileName": "",
