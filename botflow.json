@@ -238,7 +238,7 @@
         },
         "decline":{
             "fileName" :"",
-            "next_state": "disp_XFER "
+            "next_state": "disp_NI "
         },
         "idk_decline":{
             "fileName":"",
