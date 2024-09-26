@@ -6,12 +6,12 @@ delay_th: 120
 mirror: 0
 company_name: 'Ali Test'
 os: 'linux'
-version: '5.1.7.L_A'
-dated: '25/09/2024 @ 12:00 AM'
+version: '5.1.8.L_A'
+dated: '26/09/2024 @ 11:57 AM'
 running_mode : 'PRO' # if you have to run try.py make it "TRY" else "PRO"
 auto_unpause: True # its value should be True or False to make auto pause/unpause ; Pleae check the spelling and case; it should be exactly that I specified
 chrome_driver: ''
-no_response_time: 3.0
+no_response_time: 5.0
 pause_duration: 0.5
 block_size: 4000
 age:
